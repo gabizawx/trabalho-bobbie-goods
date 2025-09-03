@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    color:cornflowerblue;
+}
+
+#logo {
+    width: 4rem;
+    margin-left: 5rem;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 5rem;
+}
+
+a {
+    margin-right: 4rem;
+    text-decoration: none;
+    color:darkblue;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+li {
+    list-style: none;
+}
+
+#historia, #brasil, #beneficios {
+    background-color: aliceblue;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+img {
+    width: 20rem;
+}
